@@ -1,0 +1,12 @@
+.ulist{
+    display: flex;
+    flex-direction: row;
+    margin: 5%;
+    padding-right: 10%;
+}
+
+.card{
+    border: 2px solid;
+    padding: 1%;
+    margin: 2%;
+}
