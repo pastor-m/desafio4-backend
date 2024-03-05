@@ -27,4 +27,16 @@ router.get("/realTimeProducts", async (req,res)=>{
     }
 })
 
+// router.delete("/prodID?:pid", async (req,res)=>{
+//     try {
+//         const id = req.params.pid;
+//         let deletedItem = await products.deleteProduct(id)
+//         let reqProducts = await products.getProducts();
+//         res.render("realTime",{reqProducts})
+//     } catch (error) {
+//                 console.log("error while getting products",error)
+//         res.send("No products found", error)
+//     }
+// })
+
 export default router;

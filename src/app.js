@@ -4,7 +4,7 @@ const PORT = 8080;
 import exphbs from "express-handlebars"
 import {Server} from "socket.io"
 import viewsRouter from "./routes/views.router.js"
-import realTimeRouter from "./routes/views.router.js"
+import realTimeRouter from "./routes/realTime.router.js"
 
 //Middleware
 app.use(express.urlencoded({extended: true}))

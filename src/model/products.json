@@ -88,17 +88,6 @@
     "id": "9"
   },
   {
-    "title": "Charger",
-    "description": "Charger",
-    "price": "1000",
-    "status": true,
-    "thumbnail": "sin imagen",
-    "code": "abc10",
-    "stock": "10",
-    "category": "furniture",
-    "id": "10"
-  },
-  {
     "title": "Telefono",
     "description": "Telefono",
     "code": "abc867",

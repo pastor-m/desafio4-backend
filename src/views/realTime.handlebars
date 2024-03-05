@@ -2,16 +2,22 @@
 
 <h2>Real Time Products</h2>
 <div class="ulist">
-    <ul id="product-list" class="ulist">
-    </ul>
+    <ul id="product-list" class="ulist"></ul>
+
 </div>
 
 <form>
     <label for="">Product</label>
-    <input type="text" name="Product"/>
+    <input type="text" name="Product" id="title"/>
     <label for="">Price</label>
-    <input type="number" name="Price"/>
-    <button>Submit</button>
+    <input type="number" name="Price" id="price"/>
+    <button id="addProduct">Add Product</button>
+</form>
+
+<form action="">
+    <label for="">Product ID</label>
+    <input type="text" id="deleteProdId" required>
+    <button id="deleteButton">Delete</button>
 </form>
 
 
